@@ -1,7 +1,7 @@
 # nailmaker-media: rules for Claude and Grace
 
 Purpose: give each NailMaker TikTok video a public URL so Buffer can attach it.
-Public URL pattern: https://media.nailmakerdigital.co.uk/tiktok/<file>.mp4 (Cloudflare Pages, deploys on push to main).
+Public URL pattern: https://media.nailmakerdigital.co.uk/tiktok/<file>.mp4 (Cloudflare Workers static assets, deploys on push to main).
 
 - Only add finished, approved-content social videos (MP4, H.264, 1080x1920, 3 to 60 seconds, under 20 MB).
 - Name files `tiktok/YYYY-MM-DD-<short-slug>.mp4` for new posts (launch files keep their tt-post-N names).
